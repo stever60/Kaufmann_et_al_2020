@@ -1,0 +1,142 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\li960\sl313\sa213\qj\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \expnd0\expndtw0\kerning0
+\
+Key Metadata Fields\
+1.	Title\
+This should describe the dataset, not the project/activity which produced it. You might consider a title that answers the questions \'91what, where, when\'92.\
+\
+Biomarker (branched Glyceryl Dialkyl Glyceryl Tetraether, brGDGT) reconstructed mean summer air temperatures (MSAT) for the past 6,000 years from lake sediments on Annenkov Island (near South Georgia) and the South Shetland Islands \
+\
+2.	Abstract\
+The abstract should summarise the dataset, allowing the reader to determine the scope and relevance of the resource. It is recommended that the abstract is organised following the \'91what, where, when, how, why, who\'92 structure.\
+\
+The dataset contains biomarker compound and brGDGT mean summer temperature (MSAT) data for the last c. 6,000 years from sediments extracted from Fan Lake on Annenkov Island (near South Georgia) and Yanou Lake, King George Island, South Shetland Islands. Temperature was reconstructed using the Pearson et al. (2011) global calibration and the Foster et al. (2016) Antarctic calibration. For the latter, we studied 32 lakes from Antarctica, the sub-Antarctic Islands and Southern Chile to: 1) quantify their GDGT composition and investigate the environmental controls on GDGT composition; and 2) develop a GDGT\'96temperature calibration model for inferring past temperatures from Antarctic and sub-Antarctic lakes. The downcore temperature reconstruction data produced using the new Antarctic brGDGT\'96temperature calibration were tested on Fan Lake and Yanou Lake to provide a proof of concept for the new calibration model in the Southern Hemisphere.\
+\
+3.	Keywords\
+Pick a number of keywords (~5) which will help others discover your dataset when searching our Discovery Metadata System. If you don\'92t provide any, we\'92ll pick for you based on the information you\'92ve given us.\
+\
+Palaeoclimate, temperature reconstruction, organic geochemistry, GDGT, Southern Hemisphere, palaeolimnology, Antarctic\
+\
+4.	Lineage/methodology\
+Describe how the data was gathered and how it was processed. If this data was collected on a cruise, please also state the cruise number. Metadata pertaining to model output should include the name of the model, the conditions of the calculation and the nature of its output. If there is a published paper or report that describes the lineage in further detail, please provide the reference or include as contextual metadata.\
+\
+Reconstructed Temperature datasets\
+\
+Sediment cores were taken from Fan Lake (FAN) in 2005/6 and from Yanou Lake (YAN) in 2006/7. Samples were kept frozen at BAS, Cambridge and GDGT compounds extracted using standard procedures described in detail in Foster et al. (2016). Temperatures were produced from the GDGT compounds included in the datasets as follows: \
+\
+Pearson et al. (2011) - Global calibration\
+MSAT = 20.9 + (98.1xGDGT-1b) - (12.0xGDGT-II) - (20.5xGDGT-III)\
+\
+Foster et al. (2016) - Antarctic calibration\
+MSAT = 18.7+ (80.3\'d7GDGT-Ib) \uc0\u8722 (25.3 \'d7GDGT-II)\u8722 (19.4\'d7GDGT-III) +(369.9\'d7GDGT-IIIb)\
+\
+Chronology datasets \
+\
+\
+5.	Instrumentation\
+List the instrumentation and software (including the version number) used in sample collection, analysis and processing. \
+\
+From Foster et al. (2016) and Roberts et al. (2017): \
+Data were analysed using an Acquity Xevo TQ-S (triple quadrupole with step wave; Waters Ltd.) LC-MS set up with an atmospheric pressure chemical ionisation (APCI) source (Ion saber II) operated in positive ion mode. Analytical separation was achieved using a Grace Prevail Cyano HPLC column (3\uc0\u956 m, 150 \'d72.1mmi.d.) fitted with an in line filter (Waters Acquity UPLC in-line filter, 0.2\u956 m) at 40\'b0C using a binary solvent gradient where eluent A was hexane and eluent B was propanol. The LC-MS settings were: source offset 50 V, capillary 1.5 KV, desolvation temperature 200\'b0C, cone voltage 30 V, desolvation gas (N2). Detection was achieved using selected ion monitoring (SIM) of targeted [M +H]+ions (dwell time 50ms). The target ions were m/z 1302, 1300, 1298, 1296 and 1292 for the isoGDGTs and 1050, 1048, 1046, 1036, 1034, 1032, 1022, 1020 and 1018 for the brGDGTs. Peak identification and integration was carried out using MassLynx software (version 4.1). All statistical analysis was undertaken in R 2.15.2 (R Foundation for Statistical Computing). Bayesian age\'96depth model and weighted mean (wmean), median ages and 95% confidence interval age ranges were constructed using BACON v. 2. and radiocarbon and Pb-210 dating analysis of both cores. Details can be found in Strother et al. (2015) and Roberts et al. (2017). \
+\
+6.	Quality\
+Information about the accuracy of the data and any quality control procedures followed. Include information on losses of data and any cleaning of the data. Any missing values or unexplained characters (e.g. N/A) must be explained.\
+\
+The Pearson et al. (2011) calibration covers a temperature range from 1.5\'b0C to 31.2\'b0C. It doesn\'92t perform as well at the Antarctic sites since it has only 6 samples below 5\'b0C. This results in an overestimation of the temperature in the lower end of the calibration range. The Foster et al. (2016) focused on increasing the number of lower temperature sites and creating a new regional calibration for Antarctic lakes. The Foster et al. (2016) calibration results should be used in preference for (sub)Antarctic lake data. Note temperatures are mean summer.\
+\
+For the Yanou Lake record (YAN), whole YAN-GDGT data set has two values that are above the 5th and 95th percentile outliers (< -0.33 oC and >8.61 oC). These are 11.32 oC and 13.84 oC at 1,660 cal a BP and 3,140 cal a BP, respectively. The Fan Lake dataset (FAN) contains three values above the 95th percentile value of 12.87 oC between 3,440 and 3,550 cal a BP. Note that any values greater than the 10.3 oC maximum limit of the Foster et al. (2016) calibration dataset are highlighted in red and should be treated with caution. The Foster et al calibration is better suited for use in colder lakes such as Fan Lake and Yanou Lake. As a result, it reproduced the C20th observational MSAT data for Fan Lake and Yanou Lake well, and better than the Pearson et al (2011) calibration. However, it also produced some unexpectedly high temperatures for some, but not all, samples older than 2 ka in the Fan and Yanou lake reconstructions. \
+\
+We are currently investigating this. The most straightforward explanation is the need for more data in the upper end of the temperature gradient in the Antarctic (Foster et al. 2016) calibration dataset. To address this we are currently working on improving and updating the Antarctic, and global, lake GDGT-temperature calibrations\
+7.	Related datasets\
+Is this data part of a larger project or associated with any other datasets you are submitting?\
+\
+This dataset will form part of the data paper associated with the forthcoming IPCC-AR6 report entitled: A global database of Holocene paleo-temperature records, led by Darrell Kaufman. \
+\
+8.	Data structure and data format\
+How many files are there, what format are they in and what are their approximate volume? The format should be interoperable/non-proprietary unless otherwise agreed.\
+\
+There are 2 csv files \
+Fan Lake_GDGT-MSAT.csv \'96 5 kb\
+Yanou Lake_GDGT-MSAT.csv \'96 9 kb\
+\
+9.	Temporal coverage\
+Provide a start date and end date for the data collection. If you collected data over multiple seasons please provide the dates for each season, or if the data are continuous please provide an overall date range.\
+\
+Samples collected 2005-2007\
+GDGT data collected 2007-2016\
+\
+10.	Spatial coverage\
+Include all relevant spatial coverage information from the following: latitude (southernmost and northernmost); longitude (westernmost and easternmost) \'96 in decimal degrees; altitude (min and max); and depth (min and max). \
+\
+Fan Lake: 54.48333 S, 37.08333 W\
+Yanou Lake: 62.22072 S, 58.95985 W\
+\
+11.	Resolution\
+State if your data has a specific horizontal, vertical or spatial resolution.\
+N/A\
+\
+12.	Location\
+Please provide place names \'96 a broad region and associated localities \'96 using a recognised source, e.g. the SCAR Composite Gazetteer of Antarctica: https://data.antarctica.gov.au/aadc/gaz/scar/\
+\
+Fan Lake, Annenkov Island\
+Yanou Lake, Fildes Peninsula, King George Island\
+\
+13.	Personnel\
+List all those involved in producing this dataset, with priority ordering; their full name, role(s), ORCID number and organisation. As a minimum, please include the roles of the dataset creator(s) and a contact person for the data. Common other roles include: researcher, project leader, project member, project manager. \
+NB (1): Only dataset creators are used in the citation, but all personnel will be listed in the metadata \'96 this is standard practice. \
+NB (2): The personnel information you provide will be used in the DOI metadata as specified; the DMS metadata may differ (i.e. priority ordering and role titles) due to current software limitations.\
+\
+\'95	Stephen J Roberts, dataset creator & project leader and project manager, 0000-0003-3407-9127, BAS, Madingley Road, Cambridge\
+\'95	Emma Pearson, dataset creator, research project leader, 0000-0002-5990-1343, School of Geography, Politics and Sociology, Newcastle University \
+\'95	Louise Foster, dataset creator, researcher, 0000-0002-6455-7639, University College Dublin, School of Earth Sciences, Dublin, Ireland\
+\'95	Steve Juggins, dataset creator, project member, 0000-0003-4466-424X, School of Geography, Politics and Sociology, Newcastle University\
+\'95	Elie Verleyen, project member, 0000-0003-1426-2960, Ghent University, Protistology and Aquatic Ecology, Krijgslaan, Gent, Belgium\
+\'95	Krystyna Saunders, project member, 0000-0002-6800-2630, Australian Nuclear Science and Technology Organisation, Sydney, Australia\
+\'95	Dominic Hodgson, project member, BAS, Madingley Road, Cambridge\
+\
+\
+14.	References\
+Reference any publications/articles made from this data, to be listed against this dataset.\
+\
+\
+Roberts, Stephen J.; Monien, Patrick; Foster, Louise C.; Loftfield, Julia; Hocking, Emma P.; Schnetger, Bernhard; Pearson, Emma J.; Juggins, Steve; Fretwell, Peter ; Ireland, Louise; Ochyra, Ryszard; Haworth, Anna R.; Allen, Claire S. ; Moreton, Steven G.; Davies, Sarah J.; Brumsack, Hans-J\'fcrgen; Bentley, Michael J.; Hodgson, Dominic A. 2017 Past penguin colony responses to explosive volcanism on the Antarctic Peninsula. Nature Communications, 8, 14914. 16, pp. https://doi.org/10.1038/ncomms14914\
+\
+Foster, Louise C.; Pearson, Emma J.; Juggins, Steve; Hodgson, Dominic A. ; Saunders, Krystyna M.; Verleyen, Elie; Roberts, Stephen J.. 2016 Development of a regional glycerol dialkyl glycerol tetraether (GDGT)-temperature calibration for Antarctic and sub-Antarctic lakes. Earth and Planetary Science Letters, 433. 370-379.\
+https://doi.org/10.1016/j.epsl.2015.11.018\
+\
+Strother, Stephanie L.; Salzmann, Ulrich; Roberts, Stephen J.; Hodgson, Dominic A. ; Woodward, John; Van Nieuwenhuyze, Wim; Verleyen, Elie; Wyverman, Wim; Moreton, Steven G.. 2015 Changes in Holocene climate and the intensity of Southern Hemisphere Westerly Winds based on a high-resolution palynological record from sub-Antarctic South Georgia. The Holocene, 25 (2). 263-279. https://doi.org/10.1177/0959683614557576\
+\
+\
+15.	Funding source\
+Please be as specific as possible and include a reference number where available e.g. NERC standard grant NE/J012345/1.\
+\
+This study is an output of the British Antarctic Survey (BAS) Natural Environment Research Council(NERC)-funded Science Pro-gram, and was funded by NERC Studentship NE/J500173/1 to LF (BAS and Newcastle University) with additional support from: the European Commission under the 7th Framework Programme through the Action \'96 IMCONet (FP7 IRSES, action No.319718 and the ESF-funded IMCOAST project AP6 to SJR, both coordinated by the Alfred\
+Wegener Institute, Helmholtz Centre for Polar and Marine Research, Germany). Additional funding from the Natural Environmental Research Council (NERC-CASS), and the\
+German Research Foundation (DFG project no. BR 775/25-1). Logistic support from\
+the NERC-British Antarctic Survey (BAS), HMS Endurance and 892 Naval Air Squadron,\
+the Alfred Wegner Institute (AWI) and the Instituto Ant\'e1rtico Argentino (IAA).\
+\
+16.	Access constraints\
+State if there are any restrictions on accessing the data, e.g. if the data are under embargo and when it will be made freely available.\
+\
+No\
+\
+17.	Use constraints\
+State if there is any restrictions on the use of the dataset once accessed. For NERC-funded data, the following Open Government Licence is generally used: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\
+\
+Reference for datasets: \
+Fan Lake: Foster et al. (2016) and Strother et al. (2015)\
+Yanou Lake: Roberts et al. (2017)\
+\
+18.	Related URLs\
+If you have a project page or online reports, for example, this can be linked.\
+\
+https://www.bas.ac.uk/team/science-teams/palaeo-environments-or-past-climates/  \
+}
